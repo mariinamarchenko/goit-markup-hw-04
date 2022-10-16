@@ -705,13 +705,13 @@ color: #2196F3;
     align-items: center;
     justify-content: center;
     background-color: #48484F;
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FFFFFF; */
 }
 
 .sm-link:hover,
 .sm-link:focus {
     background-color: #2196F3;
     box-shadow: 0px 4px 4px 0px #00000040;
+    fill: #FFFFFF;
 }
 
 .sm-link:hover .sm-icon {
@@ -765,11 +765,12 @@ color: #2196F3;
     fill: #2196F3;
 }
 
-.email {
+.email, .phone {
     display: flex;
 }
 
-.email:hover {
+.email:hover,
+.email:focus {
     color: #2196F3;
     fill: #2196F3;
 }
