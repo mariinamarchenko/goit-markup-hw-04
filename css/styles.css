@@ -750,19 +750,19 @@ color: #2196F3;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .email-address, .phone-number {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
     padding-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
+    fill: currentColor;
 }
 
 .email-address:hover,
@@ -834,7 +834,6 @@ color: #2196F3;
     margin-left: 70px;
     /* display: block; */
     display: inline-block;
-    margin-top: 12px;
 }
 
 .sm-join-header {
@@ -869,11 +868,13 @@ color: #2196F3;
 
 .ag {
     display: flex;
-    /* margin-left: 180px; */
 }
 
 .footer-address-item-m {
     margin-top: 20px;
 }
 
-
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
